@@ -5,7 +5,7 @@ var input = [
 ];
 var result = input.map(function (arrIndex){
   return Math.sqrt(arrIndex.x ** 2 + arrIndex.y ** 2)
-});
+})
 
 
 console.log(result[0] === 5);
